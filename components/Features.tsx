@@ -56,7 +56,7 @@ export default function Features() {
                         rounded={'md'}>
                         Our Story
                     </Text>
-                    <Heading>A digital Product design agency</Heading>
+                    <Heading>A digital Product time saver</Heading>
                     <Text color={'gray.500'} fontSize={'lg'}>
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
                         nonumy eirmod tempor invidunt ut labore
@@ -73,19 +73,19 @@ export default function Features() {
                                 <Icon as={IoAnalyticsSharp} color={'yellow.500'} w={5} h={5} />
                             }
                             iconBg={useColorModeValue('yellow.100', 'yellow.900')}
-                            text={'Business Planning'}
+                            text={'Enjoy more time spent with loved ones'}
                         />
                         <Feature
                             icon={<Icon as={IoLogoBitcoin} color={'green.500'} w={5} h={5} />}
                             iconBg={useColorModeValue('green.100', 'green.900')}
-                            text={'Financial Planning'}
+                            text={'Do more with your time'}
                         />
                         <Feature
                             icon={
                                 <Icon as={IoSearchSharp} color={'purple.500'} w={5} h={5} />
                             }
                             iconBg={useColorModeValue('purple.100', 'purple.900')}
-                            text={'Market Analysis'}
+                            text={'Spend less time searching'}
                         />
                     </Stack>
                 </Stack>

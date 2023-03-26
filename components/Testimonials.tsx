@@ -91,28 +91,12 @@ export default function Testimonials() {
         <Box bg={useColorModeValue('gray.100', 'gray.700')}>
             <Container maxW={'7xl'} py={16} as={Stack} spacing={12}>
                 <Stack spacing={0} align={'center'}>
-                    <Heading>Our Clients Speak</Heading>
-                    <Text>We have been working with clients around the world</Text>
+                    <Heading>Our Community Speaks</Heading>
+                    <Text>We look to help our community around the world do better</Text>
                 </Stack>
                 <Stack
                     direction={{ base: 'column', md: 'row' }}
                     spacing={{ base: 10, md: 4, lg: 10 }}>
-                    <Testimonial>
-                        <TestimonialContent>
-                            <TestimonialHeading>Efficient Collaborating</TestimonialHeading>
-                            <TestimonialText>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                                neque sed imperdiet nibh lectus feugiat nunc sem.
-                            </TestimonialText>
-                        </TestimonialContent>
-                        <TestimonialAvatar
-                            src={
-                                'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'
-                            }
-                            name={'Jane Cooper'}
-                            title={'CEO at ABC Corporation'}
-                        />
-                    </Testimonial>
                     <Testimonial>
                         <TestimonialContent>
                             <TestimonialHeading>Intuitive Design</TestimonialHeading>
@@ -126,7 +110,23 @@ export default function Testimonials() {
                                 'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'
                             }
                             name={'Jane Cooper'}
-                            title={'CEO at ABC Corporation'}
+                            title={'CEO of Snack Time'}
+                        />
+                    </Testimonial>
+                    <Testimonial>
+                        <TestimonialContent>
+                            <TestimonialHeading>Enjoy the Binge</TestimonialHeading>
+                            <TestimonialText>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
+                                neque sed imperdiet nibh lectus feugiat nunc sem.
+                            </TestimonialText>
+                        </TestimonialContent>
+                        <TestimonialAvatar
+                            src={
+                                'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'
+                            }
+                            name={'Gloria Cooper'}
+                            title={'CEO at Knitting'}
                         />
                     </Testimonial>
                     <Testimonial>
@@ -142,7 +142,7 @@ export default function Testimonials() {
                                 'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'
                             }
                             name={'Jane Cooper'}
-                            title={'CEO at ABC Corporation'}
+                            title={'CFO of Date Night'}
                         />
                     </Testimonial>
                 </Stack>

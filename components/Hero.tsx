@@ -24,15 +24,14 @@ export default function HeroSection() {
                         fontWeight={600}
                         fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
                         lineHeight={'110%'}>
-                        Make money from <br />
-                        <Text as={'span'} color={'green.400'}>
-                            your audience
+                        Make moments during <br />
+                        <Text as={'span'} color={'purple.400'}>
+                            your binge
                         </Text>
                     </Heading>
                     <Text color={'gray.500'}>
-                        Monetize your content by charging your most loyal readers and reward
-                        them loyalty points. Give back to your loyal readers by granting
-                        them access to your pre-releases and sneak-peaks.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolorem atque qui sint, possimus vero ipsa sit totam expedita earum doloribus pariatur vel provident iure dolores sequi mollitia ullam ad.
+                        Beatae quaerat voluptate ipsa, deserunt veniam soluta praesentium veritatis corrupti vel.
                     </Text>
                     <Stack
                         direction={'column'}
@@ -42,7 +41,7 @@ export default function HeroSection() {
                         position={'relative'}>
                         <Button
                             colorScheme={'green'}
-                            bg={'green.400'}
+                            bg={'green.800'}
                             rounded={'full'}
                             px={6}
                             _hover={{
@@ -69,7 +68,7 @@ export default function HeroSection() {
                                 right={'-125px'}
                                 top={'-15px'}
                                 transform={'rotate(10deg)'}>
-                                Starting at $15/mo
+                                Starting at $Free/mo
                             </Text>
                         </Box>
                     </Stack>

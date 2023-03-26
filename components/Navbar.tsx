@@ -256,38 +256,23 @@ const NAV_ITEMS: Array<NavItem> = [
         label: 'Inspiration',
         children: [
             {
-                label: 'Explore Design Work',
-                subLabel: 'Trending Design to inspire you',
+                label: 'Our Story',
+                subLabel: 'How we got started',
                 href: '#',
             },
             {
-                label: 'New & Noteworthy',
-                subLabel: 'Up-and-coming Designers',
+                label: 'About Us',
+                subLabel: 'A our values and team',
                 href: '#',
             },
         ],
     },
     {
-        label: 'Find Work',
-        children: [
-            {
-                label: 'Job Board',
-                subLabel: 'Find your dream design job',
-                href: '#',
-            },
-            {
-                label: 'Freelance Projects',
-                subLabel: 'An exclusive list for contract work',
-                href: '#',
-            },
-        ],
-    },
-    {
-        label: 'Learn Design',
+        label: 'Movies',
         href: '#',
     },
     {
-        label: 'Hire Designers',
+        label: 'Television',
         href: '#',
     },
 ];
