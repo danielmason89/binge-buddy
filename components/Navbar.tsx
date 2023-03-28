@@ -14,20 +14,24 @@ import {
     useColorModeValue,
     useBreakpointValue,
     useDisclosure,
+    useColorMode,
 } from '@chakra-ui/react';
 import {
     HamburgerIcon,
     CloseIcon,
     ChevronDownIcon,
     ChevronRightIcon,
+    MoonIcon,
+    SunIcon,
 } from '@chakra-ui/icons';
 
 
 export default function Navbar() {
+    const { colorMode, toggleColorMode } = useColorMode();
     const { isOpen, onToggle } = useDisclosure();
 
     return (
-        <Box>
+        <Box px={{ base: 2, sm: 10, md: 100 }} >
             <Flex
                 bg={useColorModeValue('white', 'gray.800')}
                 color={useColorModeValue('gray.600', 'white')}
@@ -56,7 +60,7 @@ export default function Navbar() {
                         textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
                         fontFamily={'heading'}
                         color={useColorModeValue('gray.800', 'white')}>
-                        <Button as={'a'} href='/' variant={"link"}>Logo</Button>
+                        <Button as={'a'} href='/' variant={"link"}>Binge Buddy</Button>
                     </Text>
 
                     <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
@@ -83,12 +87,15 @@ export default function Navbar() {
                         fontSize={'sm'}
                         fontWeight={600}
                         color={'white'}
-                        bg={'pink.400'}
+                        bg={'purple.400'}
                         href='/sign-up'
                         _hover={{
-                            bg: 'pink.300',
+                            bg: 'green.400',
                         }}>
                         Sign Up
+                    </Button>
+                    <Button onClick={toggleColorMode} >
+                        {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
                     </Button>
                 </Stack>
             </Flex>
@@ -96,7 +103,7 @@ export default function Navbar() {
             <Collapse in={isOpen} animateOpacity>
                 <MobileNav />
             </Collapse>
-        </Box>
+        </Box >
     );
 }
 
@@ -160,7 +167,7 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
                 <Box>
                     <Text
                         transition={'all .3s ease'}
-                        _groupHover={{ color: 'pink.400' }}
+                        _groupHover={{ color: 'purple.400' }}
                         fontWeight={500}>
                         {label}
                     </Text>
@@ -174,7 +181,7 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
                     justify={'flex-end'}
                     align={'center'}
                     flex={1}>
-                    <Icon color={'pink.400'} w={5} h={5} as={ChevronRightIcon} />
+                    <Icon color={'purple.400'} w={5} h={5} as={ChevronRightIcon} />
                 </Flex>
             </Stack>
         </Link>
@@ -258,21 +265,21 @@ const NAV_ITEMS: Array<NavItem> = [
             {
                 label: 'Our Story',
                 subLabel: 'How we got started',
-                href: '#',
+                href: '/our-story',
             },
             {
                 label: 'About Us',
                 subLabel: 'A our values and team',
-                href: '#',
+                href: '/about-us',
             },
         ],
     },
     {
         label: 'Movies',
-        href: '#',
+        href: '/movies',
     },
     {
         label: 'Television',
-        href: '#',
+        href: '/television',
     },
 ];

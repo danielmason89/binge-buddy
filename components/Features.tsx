@@ -47,10 +47,10 @@ export default function Features() {
                 <Stack spacing={4}>
                     <Text
                         textTransform={'uppercase'}
-                        color={'blue.400'}
+                        color={'white.400'}
                         fontWeight={600}
                         fontSize={'sm'}
-                        bg={useColorModeValue('blue.50', 'blue.900')}
+                        bg={useColorModeValue('purple.50', 'purple.900')}
                         p={2}
                         alignSelf={'flex-start'}
                         rounded={'md'}>

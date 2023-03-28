@@ -26,7 +26,7 @@ export default function HeroSection() {
                         lineHeight={'110%'}>
                         Make moments during <br />
                         <Text as={'span'} color={'purple.400'}>
-                            your binge
+                            your Binge
                         </Text>
                     </Heading>
                     <Text color={'gray.500'}>
@@ -40,8 +40,8 @@ export default function HeroSection() {
                         alignSelf={'center'}
                         position={'relative'}>
                         <Button
-                            colorScheme={'green'}
-                            bg={'green.800'}
+                            colorScheme={'green.400'}
+                            bg={'purple.300'}
                             rounded={'full'}
                             px={6}
                             _hover={{
