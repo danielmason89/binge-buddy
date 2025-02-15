@@ -14,7 +14,7 @@
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "eventsource-parser": "^0.1.0",
-    "formik": "^2.2.9",
+    "formik": "^2.4.6",
     "formik-chakra-ui": "^1.6.1",
     "framer-motion": "^10.8.5",
     "next": "13.2.4",
