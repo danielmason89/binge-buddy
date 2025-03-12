@@ -10,24 +10,24 @@
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.17",
-    "@chakra-ui/react": "^2.5.2",
+    "@chakra-ui/react": "^2.10.5",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "eventsource-parser": "^0.1.0",
-    "formik": "^2.2.9",
+    "formik": "^2.4.6",
     "formik-chakra-ui": "^1.6.1",
-    "framer-motion": "^10.8.5",
+    "framer-motion": "^10.18.0",
     "next": "13.2.4",
-    "openai": "^3.2.1",
     "react": "18.3.1",
-    "react-dom": "18.2.0",
+    "openai": "^4.0.0",
+    "react-dom": "18.3.1",
     "react-icons": "^4.8.0",
     "yup": "^1.0.2"
   },
   "devDependencies": {
     "@types/node": "18.15.5",
     "@types/react": "18.0.28",
-    "eslint": "8.36.0",
-    "eslint-config-next": "13.2.4"
+    "eslint": "9.15.0",
+    "eslint-config-next": "15.0.0"
   }
 }
