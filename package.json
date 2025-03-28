@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@chakra-ui/icons": "^2.0.17",
+    "@chakra-ui/icons": "^2.2.6",
     "@chakra-ui/react": "^2.10.5",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
@@ -17,7 +17,7 @@
     "formik": "^2.4.6",
     "formik-chakra-ui": "^1.6.1",
     "framer-motion": "^10.18.0",
-    "next": "13.2.4",
+    "next": "14.2.25",
     "react": "18.3.1",
     "openai": "^4.0.0",
     "react-dom": "18.3.1",
@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@types/node": "18.19.76",
-    "@types/react": "18.0.28",
+    "@types/react": "18.3.18",
     "eslint": "9.15.0",
     "eslint-config-next": "15.0.0"
   }
